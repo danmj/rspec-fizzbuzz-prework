@@ -6,6 +6,8 @@ def fizzbuzz(int)
     "FizzBuzz"
   end  
   
+  binding.pry
+  
   elsif int % 3 == 0
     "Fizz"
   end 
@@ -18,6 +20,6 @@ def fizzbuzz(int)
     nil
   end
   
-  binding.pry
+  
   
 end  
