@@ -1,3 +1,5 @@
+require 'pry'
+
 def fizzbuzz(int)
   
   if int % 3 == 0 && int % 5 == 0
@@ -15,5 +17,7 @@ def fizzbuzz(int)
   else
     nil
   end
+  
+  binding.pry
   
 end  
